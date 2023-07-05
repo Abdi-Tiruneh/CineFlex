@@ -1,5 +1,6 @@
 {
   "db": "mongodb://127.0.0.1/CineFlex",
   "port": "7000",
-  "jwtPrivateKey": "jwtPrivateKey"
+  "jwtPrivateKey": "jwtPrivateKey",
+  "requiresAuth": true
 }
