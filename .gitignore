@@ -1,3 +1,49 @@
-.DS_Store
+# Logs
+logs
+*.log
+
+# Dependencies
 node_modules/
-logfile.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Compiled binary addons
+**/*.node
+
+# Test coverage reports
+coverage/
+
+# Output of package manager
+package-lock.json
+yarn.lock
+
+# Environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE settings
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+*.swp
+*.swo
